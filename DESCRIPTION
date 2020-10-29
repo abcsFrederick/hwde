@@ -12,3 +12,5 @@ LazyLoad: true
 LazyData: true
 NeedsCompilation: no
 Repository: CRAN
+Suggests: 
+    testthat
