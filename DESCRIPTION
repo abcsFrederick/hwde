@@ -1,16 +1,18 @@
 Package: hwde
 Version: 0.68
-Date: 2020-10-29
 Title: Models and Tests for Departure from Hardy-Weinberg Equilibrium and Independence Between Loci
 Authors@R: personList(person( 'John',   'Maindonald', email = 'John.Maindonald@anu.edu.au', role = 'aut'),
                       person('Randall',    'Johnson', email =    'randall.johnson@nih.gov', role = c('aut', 'cre')))
 Depends: R (>= 2.0)
+Imports: stats
 Description: Fits models for genotypic disequilibria, as described in Huttley and Wilson (2000), Weir (1996) and Weir and Wilson (1986). Contrast terms are available that account for first order interactions between loci. Also implements, for a single locus in a single population, a conditional exact test for Hardy-Weinberg equilibrium.
-License: GPL-3
+License: file LICENSE
 URL: https://github.com/abcsFrederick/hwde
+Encoding: UTF-8
 LazyLoad: true
 LazyData: true
 NeedsCompilation: no
 Repository: CRAN
 Suggests: 
-    testthat
+    testthat, magrittr
+RoxygenNote: 7.1.1
