@@ -1,4 +1,0 @@
-Observed locus1
-147      AA
-78       Aa
-17       aa
